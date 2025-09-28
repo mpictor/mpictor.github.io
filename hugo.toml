@@ -1,7 +1,23 @@
 baseURL = 'https://mpictor.github.io/'
 languageCode = 'en-us'
 title = 'reisub'
-theme = 'ananke'
+#pagination.pagerSize = 5
+summaryLength = 30
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[module]
+  # this is needed when you fetch the theme as a submodule to your repo.
+  # replacements = "github.com/panr/hugo-theme-terminal/4 -> themes/terminal"
+[[module.imports]]
+  path = 'github.com/panr/hugo-theme-terminal/v4'
+
+
+[params]
+  Toc = true
+  CenterTheme = true
+  #fullWidthTheme = true
+[languages]
+  [languages.en.params.logo]
+    logoText = "reisub"

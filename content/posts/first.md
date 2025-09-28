@@ -2,6 +2,7 @@
 date = 2020-05-06T23:48:48-05:00
 draft = false
 title = 'Firstest or worstest'
+summary = 'Magic SysRq and the blog name'
 +++
 
 So I decided to try out hugo. Gonna weblog like it's 1999. No, no, not quite... gonna gopher like it's port 70? That'll work.
@@ -30,3 +31,5 @@ As you can see, most of these would be catastrophic to a running system. `s` won
 `b` and `o` really are immediate: if used on their own, they are equivalent to yanking the power cord and are likely to result in lost data and/or filesystem errors.
 
 So why did I choose REISUB as the name of this blog? Because naming things is hard. People have already claimed `EAGAIN`, `xor EAX EAX EAX`, and many others I'd consider.
+
+Don't read too much into the name: this blog isn't likely to be of much use in disastrous situations.

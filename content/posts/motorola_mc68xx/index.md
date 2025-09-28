@@ -2,13 +2,14 @@
 date = '2025-09-27T19:04:37-05:00'
 draft = false
 title = 'Unpopulated Motorola circuit boards'
+summary = 'Motorola PCBs that may be of interest to the retro community'
 +++
 
 Perhaps these are of interest to someone in the retro community. Link to high-res versions at bottom.
 
 These boards come from the estate of a retired Motorola engineer.
 
-### MC6805 Demonstrator Board
+## MC6805 Demonstrator Board
 
 
 ![mc6805 demonstartor](mc6805_demonstrator_small.png)
