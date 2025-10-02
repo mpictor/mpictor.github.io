@@ -3,6 +3,7 @@ date = 2025-09-27T00:42:38-05:00
 draft = false
 title = '7912AD repair notes'
 summary = 'Notes - mostly for myself - on where I am at in troubleshooting a Tek 7912AD digitizer'
+tags = ["7912ad","electronics","troubleshooting"]
 +++
 
 ## Setup

@@ -2,6 +2,7 @@
 title: "adding +/- voltage displays to a power supply for $4"
 # title: "positive and negative voltage display using positive meters"
 date: 2024-04-09T19:25:40-05:00
+tags: ["electronics"]
 draft: false
 ---
 

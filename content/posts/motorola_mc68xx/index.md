@@ -3,6 +3,7 @@ date = '2025-09-27T19:04:37-05:00'
 draft = false
 title = 'Unpopulated Motorola circuit boards'
 summary = 'Motorola PCBs that may be of interest to the retro community'
+tags = ["electronics","motorola","mc6805","retro"]
 +++
 
 Perhaps these are of interest to someone in the retro community. Link to high-res versions at bottom.

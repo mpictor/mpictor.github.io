@@ -3,6 +3,7 @@ date = 2020-05-06T23:48:48-05:00
 draft = false
 title = 'Firstest or worstest'
 summary = 'Magic SysRq and the blog name'
+tags = ["first", "naming","sysrq","linux"]
 +++
 
 So I decided to try out hugo. Gonna weblog like it's 1999. No, no, not quite... gonna gopher like it's port 70? That'll work.
