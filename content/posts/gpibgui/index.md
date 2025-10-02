@@ -16,7 +16,7 @@ draft=false
 
 ## intro
 
-I have an unusual and rare piece of test equipment, the Tektronix [7912AD](../7912ad_repair_notes). It also happens to lack a built-in display and expects to talk to a computer. Hardly unusual today - just talk to the device over ethernet or wifi - but this device was introduced in the 1970s.
+I have an unusual and rare piece of test equipment, the Tektronix [7912AD](https://w140.com/tekwiki/wiki/7912AD). It also happens to lack a built-in display and expects to talk to a computer. Hardly unusual today - just talk to the device over ethernet or wifi - but this device was introduced in the 1970s.
 
 So why bother with something so old? A number of reasons: because of the challenge, because I ended up with it, because it's unusual, and because anything approaching its most impressive spec is incredibly expensive. See [purpose-built tech](#purpose-built-tech) below for details.
 
@@ -49,8 +49,6 @@ At the time I hadn't fully decoded the 7912's responses, so the backend started 
 ![screenshot](not_so_random.png)
 
 On my unit, the logo is black. A few years later they switched to blue, which I prefer, so I opted for that one in this gui.
-
-The logo isn't perfectly accurate - on my unit, it's black - but a few years later they switched to blue. I thought it looked better, so I opted to use the blue one in this gui.
 
 ### not so random
 
@@ -95,11 +93,11 @@ If anyone has created a font to mimic Tek's analog readout text, I'll probably i
 
 I wanted to include a demo, but I'm up against one or more hugo security features. It seems that hugo ignores any html files within a page bundle, and I've yet to figure out how to allow it. So at least for now, the closest you can get to a demo is the screenshots and the code. The code can be viewed in my prologix fork on the 7912_secondary_ar488 branch, under lib/serve: [link](https://github.com/mpictor/prologix/tree/7912_secondary_ar488/lib/serve). 
 
-Note that this doesn't actually talk to a live device, just serves up one set of real data or one of two flavors of random data. 
+Note that this doesn't actually talk to a live device, just serves up one set of real data or one of two flavors of random data. The code that communicates with the 7912 over gpib can be seen on that same branch, in `examples/vcp/7912AD/7912ad.go`. They will eventually be linked, but aren't yet.
 
 ## on hold
 
-Getting it to talk to the real device is on hold until said real device is back to working.
+Getting it to talk to the real device is on hold until said real device is back to working: [repair notes](posts/7912ad_repair_notes).
 
 ## purpose-built tech
 
@@ -112,11 +110,12 @@ If a fast signal repeats, there are tricks that can be used to capture the data 
 Lacking my own multi-billion-dollar facilities, I'm sadly unable to carry on such research. But if I can get it repaired, it will still function as a fairly fast oscilloscope - and that, I _can_ put to use.
 
 
-## links
+## additional links
 
 
 The photo of a real analog scope's display is from a blog post about accurate simulation of phosphor persistence. archive.org link: https://web.archive.org/web/20250726232140/https://richardandersson.net/?p=350
 Corresponding source code: https://github.com/RandomDude4/PhosPersPlot
 
 TubeTime's comparison of phosphor types - https://www.youtube.com/watch?v=FCAKL-4NTrA
+
 I need one of each.
